@@ -2,11 +2,11 @@ import styled from 'styled-components'
 
 export const ContainerHeader = styled.div`
     grid-area:MH;
-    background:${props => props.theme.colors.gray};
+    background:${props => props.theme.colors.black};
     color:${props => props.theme.colors.warning};
 
     color:#fff;
-    border:#fff solid 2px;
+    border-bottom:#fff solid 2px;
 
     display:flex;
     justify-content:space-between;

@@ -5,7 +5,9 @@ export const ContainerContent = styled.div`
 
     background-color:${props => props.theme.colors.black};
     color:${props => props.theme.colors.info};
-    border:#fff solid 2px;
+
+    padding:25px;
+    
 
 
 

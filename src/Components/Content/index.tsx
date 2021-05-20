@@ -1,10 +1,10 @@
 import React from 'react'
 import { ContainerContent } from './styles'
 
-const Content: React.FC = () =>{
+const Content: React.FC = ({children}) =>{
     return(
         <ContainerContent>
-            <h2>Content</h2>
+            {children}
         </ContainerContent>
     )
 }
